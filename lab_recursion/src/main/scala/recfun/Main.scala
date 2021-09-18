@@ -38,4 +38,15 @@ object Main {
         else if(money > 0 && coins.nonEmpty) countChange(money - coins.head, coins) + countChange(money, coins.tail)
         else 0
       }
+
+
+      /**
+       * Exercise 4
+       */
+      def individual(k: BigInt = 8, i: BigInt = 1)(x: BigInt):BigInt = {
+        if(x == 10) -1
+        else if (x < 10) 0
+        else if (i <= k) i*x * individual(k, i + 1)(x)
+        else 1
+      }
     }
