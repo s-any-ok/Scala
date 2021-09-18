@@ -1,0 +1,33 @@
+[debug] > Exec(scalafixAll dependency:RewriteDeprecatedNames@org.scalatest:autofix:3.1.0.1, None, None)
+[debug] Evaluating tasks: scalafixAll
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 2 Scala sources to C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\target\scala-2.13\classes ...
+[info] Non-compiled module 'compiler-bridge_2.13' for Scala 2.13.3. Compiling...
+[info]   Compilation completed in 9.467s.
+[warn] 2 deprecations (since 2.13.0); re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[info] compiling 3 Scala sources to C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\target\scala-2.13\test-classes ...
+[info] Running scalafix on 2 Scala sources
+[error] C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\src\test\scala\recfun\BalanceSuite.scala:7:22: object junit is not a member of package org.scalatest
+[error] import org.scalatest.junit.JUnitRunner
+[error]                      ^
+[error] C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\src\test\scala\recfun\BalanceSuite.scala:9:18: not found: type JUnitRunner
+[error] @RunWith(classOf[JUnitRunner])
+[error]                  ^
+[error] C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\src\test\scala\recfun\CountChangeSuite.scala:7:22: object junit is not a member of package org.scalatest
+[error] import org.scalatest.junit.JUnitRunner
+[error]                      ^
+[error] C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\src\test\scala\recfun\CountChangeSuite.scala:9:18: not found: type JUnitRunner
+[error] @RunWith(classOf[JUnitRunner])
+[error]                  ^
+[error] C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\src\test\scala\recfun\PascalSuite.scala:7:22: object junit is not a member of package org.scalatest
+[error] import org.scalatest.junit.JUnitRunner
+[error]                      ^
+[error] C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\src\test\scala\recfun\PascalSuite.scala:9:18: not found: type JUnitRunner
+[error] @RunWith(classOf[JUnitRunner])
+[error]                  ^
+[error] 6 errors found
+[error] (Test / compileIncremental) Compilation failed
+[error] Total time: 21 s, completed Sep 7, 2021 11:57:45 PM
+[debug] > Exec(idea-shell, None, None)

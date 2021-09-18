@@ -1,0 +1,9 @@
+[debug] > Exec(scalafixEnable, None, None)
+[warn] build source files have changed
+[warn] modified files: 
+[warn]   C:\Users\omazhara\work\Scala\KPI\LABS\lab1\lab_recursion\build.sbt
+[warn] Apply these changes by running `reload`.
+[warn] Automatically reload the build when source changes are detected by setting `Global / onChangedBuildSource := ReloadOnSourceChanges`.
+[warn] Disable this warning by setting `Global / onChangedBuildSource := IgnoreSourceChanges`.
+[info] set current project to lab_recursion (in build file:/C:/Users/omazhara/work/Scala/KPI/LABS/lab1/lab_recursion/)
+[debug] > Exec(idea-shell, None, None)
