@@ -62,7 +62,7 @@ class NonEmpty(elem: Post, left: PostSet, right: PostSet) extends PostSet {
   def filterAcc(p: Post => Boolean, acc: PostSet): PostSet =
     right.filterAcc(p, left.filterAcc(p, if(p(elem)) acc.incl(elem) else acc))
 
-  def union(that: PostSet): PostSet = (left.union(right.union(that))).incl(elem)
+  def union(that: PostSet): PostSet = left.union(right.union(that)).incl(elem)
 
   def mostLiked: Post = {
     if(left.isEmptyLikes > elem.likes || right.isEmptyLikes > elem.likes)
