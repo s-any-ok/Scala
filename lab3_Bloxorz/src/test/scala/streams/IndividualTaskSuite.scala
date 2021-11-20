@@ -28,6 +28,34 @@ class IndividualTaskSuite extends munit.FunSuite {
     assertEquals(result, 218)
   }
 
+  test("individualPartialFunc isDefinedAt(9)") {
+    assertEquals(individualPartialFunc.isDefinedAt(9), true)
+  }
+
+  test("individualPartialFunc isDefinedAt(10)") {
+    assertEquals(individualPartialFunc.isDefinedAt(10), false)
+  }
+
+  test("individualPartialFunc isDefinedAt(11)") {
+    assertEquals(individualPartialFunc.isDefinedAt(11), true)
+  }
+
+  test("individual: k=8 i=1 x=11") {
+    assert(individualPartialFunc(11) == 8642950081920L)
+  }
+
+  test("individual: k=8 i=1 x=0") {
+    assert(individualPartialFunc(0) == 0)
+  }
+
+  test("individual: k=8 i=1 x=9") {
+    assert(individualPartialFunc(9) == 0)
+  }
+
+  test("individual: k=8 i=1 x=10") {
+    assert(individualPartialFunc(10) == -1)
+  }
+
   import scala.concurrent.duration._
   override val munitTimeout: FiniteDuration = 10.seconds
 }

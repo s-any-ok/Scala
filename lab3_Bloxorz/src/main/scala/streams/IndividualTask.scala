@@ -29,6 +29,6 @@ object IndividualTask {
 
   def toList(range: Seq[Int], f: PartialFunction[Int, BigInt]) =
   {
-    for (x <- range.toList if f isDefinedAt(x)) yield f(x)
+    for (x <- range.toList if f.isDefinedAt(x)) yield f(x)
   }
 }
