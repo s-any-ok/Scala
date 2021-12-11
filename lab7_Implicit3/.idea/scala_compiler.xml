@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="lab7_implicit3_3933" />
+    <profile name="sbt 2" modules="lab7_implicit3">
+      <option name="deprecationWarnings" value="true" />
+    </profile>
+  </component>
+</project>

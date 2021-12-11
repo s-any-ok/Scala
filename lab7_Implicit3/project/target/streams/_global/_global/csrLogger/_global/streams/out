@@ -1,0 +1,16 @@
+[debug] downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-scalafix_2.12_1.0/0.9.26/sbt-scalafix-0.9.26.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.4.2/scalaj-http_2.12-2.4.2.pom
+[debug] downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.26/scalafix-interfaces-0.9.26.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.10.0.202012080955-r/org.eclipse.jgit-5.10.0.202012080955-r.pom
+[debug] downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.2/interface-1.0.2.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit-parent/5.10.0.202012080955-r/org.eclipse.jgit-parent-5.10.0.202012080955-r.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.pom
+[debug] downloaded https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7.pom
+[debug] downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom
+[debug] downloaded https://repo1.maven.org/maven2/com/googlecode/javaewah/JavaEWAH/1.1.7/JavaEWAH-1.1.7.jar
+[debug] downloaded https://repo1.maven.org/maven2/ch/epfl/scala/sbt-scalafix_2.12_1.0/0.9.26/sbt-scalafix-0.9.26.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.12/2.4.2/scalaj-http_2.12-2.4.2.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/eclipse/jgit/org.eclipse.jgit/5.10.0.202012080955-r/org.eclipse.jgit-5.10.0.202012080955-r.jar
+[debug] downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.2/interface-1.0.2.jar
+[debug] downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+[debug] downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scalafix-interfaces/0.9.26/scalafix-interfaces-0.9.26.jar
